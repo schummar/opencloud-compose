@@ -1,4 +1,7 @@
 ---
+include:
+  - weboffice/collabora.yml
+
 services:
   opencloud:
     image: ${OC_DOCKER_IMAGE:-opencloudeu/opencloud-rolling}:${OC_DOCKER_TAG:-latest}
